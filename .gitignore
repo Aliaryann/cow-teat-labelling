@@ -48,3 +48,4 @@ teat_dataset.yaml
 # Unused placeholder folders
 backend/
 frontend/
+venv/
