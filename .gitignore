@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Private data (images, labels, models, training artifacts)
+datasets/raw_images/
+datasets/labels/
+datasets/processed/
+runs/
+models/
+packages/
+
+# Generated configs (may contain absolute paths)
+teat_dataset.yaml
+
+# Model weights (large files)
+*.pt
+*.onnx
+*.torchscript
+*.pth
+*.weights
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.bak
+
+# Unused placeholder folders
+backend/
+frontend/
