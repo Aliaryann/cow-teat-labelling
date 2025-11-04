@@ -1,7 +1,8 @@
-ultralytics
+ultralytics>=8.0
+torch>=2.0
 opencv-python
-pillow
-scikit-learn
-pyyaml
-torch
-torchvision
+numpy
+Pillow
+labelImg
+fastapi    # only if you use backend scaffold
+uvicorn    # only if you use backend
